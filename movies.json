@@ -1,0 +1,42 @@
+[
+  {
+    "id": "12312321312",
+    "title": "The Avengers",
+    "year": 2018,
+    "director": "Juan Vainas",
+    "duration": 140,
+    "poster": "https://m.media-amazon.com/images/M/MV5BNGE0YTVjNzUtNzJjOS00NGNlLTgxMzctZTY4YTE1Y2Y1ZTU4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "genre": ["Fiction", "Action"],
+    "rate": 9.5
+  },
+  {
+    "id": "32423544234",
+    "title": "Assasins Creed",
+    "year": 2015,
+    "director": "Carlos Trolinares",
+    "duration": 134,
+    "poster": "https://upload.wikimedia.org/wikipedia/en/a/a0/Assassin%27s_Creed_film_poster.jpg",
+    "genre": ["Fiction", "Action"],
+    "rate": 7.4
+  },
+  {
+    "id": "876863456456",
+    "title": "Venom",
+    "year": 2020,
+    "director": "John Salchichón",
+    "duration": 138,
+    "poster": "https://i.etsystatic.com/12729518/r/il/9e7151/1941537332/il_570xN.1941537332_3nam.jpg",
+    "genre": ["Sci-Fi", "Action"],
+    "rate": 9.0
+  },
+  {
+    "id": "5435345344125",
+    "title": "Harry Potter and the Deathly Hallows Part 2",
+    "year": 2019,
+    "director": "Pablo del Toro",
+    "duration": 144,
+    "poster": "https://static.posters.cz/image/1300/harry-potter-and-the-deadly-hallows-i133035.jpg",
+    "genre": ["Fiction"],
+    "rate": 9.8
+  }
+]

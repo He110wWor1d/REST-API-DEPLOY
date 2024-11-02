@@ -1,0 +1,33 @@
+### Recupera todas las peliculas
+GET http://localhost:1234/movies
+
+### Recuperar una película por el ID
+GET http://localhost:1234/movies/1
+
+### Recuperar las películas por un género
+GET http://localhost:1234/movies?genre=ACTION
+
+### Crea una película con POST
+POST http://localhost:1234/movies
+Content-Type: application/json
+
+{
+    "title": "The Godfather",
+    "year": 1975,
+    "director": "Fracis Ford Coppola",
+    "duration": 175,
+    "poster": "https://i.etsystatic.com/35681979/r/il/30d269/3910370144/il_570xN.3910370144_qpwh.jpg",
+    "genre": ["Crime", "Drama"]
+}
+
+### Actualizar una película
+PATCH http://localhost:1234/movies/5435345344125
+Content-Type: application/json
+
+    {
+        "title": "Harry PoPoter", 
+    "year": 1994
+    }
+
+### Este tipo de archivo solo se puede crear con la extensión REST Client y debe instalarse en VS Code para poder usarlo. 
+### Sirve para testear nuestro API al enviar solicitudes como la anterior
